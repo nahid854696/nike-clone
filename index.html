@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike.com</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+
+        <!-- Top Nav -->
+        <nav class="flex justify-between bg-gray-100 p-1.5">
+            <!-- Left Section Logos -->
+            <div class="flex ml-12 mr-4 gap-3">
+                <img class="h-6 w-4 mr-4 cursor-pointer" src="logo/jordan.svg" alt="">
+                <img class="h-6 w-6 cursor-pointer" src="logo/icon.png" alt="">
+            </div>
+            
+            <!-- Right Section  -->
+            <div class="flex items-center">
+                <ul class="flex gap-3 mr-12 font-medium text-large">
+                    <li class="text-sm cursor-pointer">Find a store</li>
+                    <li class="border-l cursor-pointer text-sm border-gray-400 pl-4">Help</li>
+                    <li class="border-l cursor-pointer text-sm border-gray-400 pl-4">Join us</li>
+                    <li class="border-l cursor-pointer text-sm border-gray-400 pl-4">Sign in</li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Bottom Nav -->
+        <nav class="flex justify-between items-center">
+            <!-- Nike Logo -->
+            <div class="ml-5 h-15 w-30">
+                <img class="h-14 w-28 cursor-pointer" src="logo/nike.logo.png" alt="">
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex-1 w-20 ml-28 ">
+                <ul class="flex justify-center items-center gap-5 text-l font-semibold ">
+                    <li class="cursor-pointer">New</li>
+                    <li class="cursor-pointer">Men</li>
+                    <li class="cursor-pointer">Women</li>
+                    <li class="cursor-pointer">Kids</li>
+                    <li class="cursor-pointer">Jordan</li>
+                    <li class="cursor-pointer">Sale</li>
+                </ul>
+            </div>
+
+            <!-- Search Input and Button -->
+            <div class="flex items-center mr-20 ">
+                <button class="bg-gray-100 rounded-l-full h-10 w-10 p-1 hover:bg-gray-300  flex items-center justify-center">
+                    <i class='bx bx-search'></i>
+                </button>
+                <input class=" rounded-r-full border-none mr-5 bg-gray-100 " type="text" placeholder="Search... " style="height: 40px; width: 120px; ">
+                <div class=" flex  ">
+                    <i><i class='bx bx-heart font-medium  hover:bg-gray-200 p-2 rounded-full  text-2xl'></i></i>
+                    <i><i class='bx bx-shopping-bag font-medium hover:bg-gray-200 p-2 rounded-full  text-2xl' ></i></i>
+                </div>
+            </div>
+        </nav>
+        <!-- bottom Nav end -->
+    </header>
+    <main>
+        <!-- First hero section -->
+        <section>
+            <div>
+                <img src="img/nike-just-do-it.jpg" alt="">
+            </div>
+        </section>
+        <!-- first hero section End -->
+
+        <!-- 2nd hero section  -->
+        <section>
+            <div class="flex flex-col justify-center items-center  text-center">
+                <h1 class="text-6xl font-bold font-mono mb-4">I GET UP</h1>
+                <p class="text-lg mb-6 font-medium">The Ja 2 is built to maximize explosiveness and quickness, so hoopers can get up when no one expects it.</p>
+                <button class="bg-black text-white font-semibold px-8 py-2 rounded-full hover:bg-gray-400 mb-20">Explore</button>
+            </div>
+        </section>
+        <!-- 2nd hero section End -->
+        <!-- 3rd hero sention -->
+        <section>
+            <div class="grid grid-cols-2 gap-0">
+                <!-- First Image with Text -->
+                <div class="relative">
+                    <img src="img/nike-just-do-it (1).jpg" alt="">
+                    <p class="absolute bottom-32 left-10  text-white text-xl font-semibold mb-2">Give Sport</p>
+                    <p class="absolute bottom-24 left-10 text-white text-2xl font-semibold ">Ready For Winter</p>
+                    <button class="absolute bottom-10 left-10 bg-white text-black px-4 py-2 font-semibold rounded-full hover:bg-gray-200">Shop Gifts</button>
+                </div>
+            
+                <!-- Second Image with Text -->
+                <div class="relative">
+                    <img src="img/nike-just-do-it (2).jpg" alt="">
+                    <p class="absolute bottom-32 left-10 text-white text-xl font-semibold ">Take It outside</p>
+                    <p class="absolute bottom-24 left-10 text-white text-2xl font-semibold ">Nike ACG Essentials</p>
+                    <button class="absolute bottom-10 left-10 bg-white text-black px-4 py-2 rounded-full font-semibold hover:bg-gray-200">Shop </button>
+                </div>
+            
+                <!-- Button on Third Image -->
+                <div class="relative">
+                    <img src="img/nike-just-do-it (3).jpg" alt="">
+                    <p class="absolute bottom-32 left-10 text-white text-xl font-semibold ">Find Your Feel</p>
+                    <p class="absolute bottom-24 left-10 text-white text-2xl font-semibold ">Nike Bars</p>
+                    <button class="absolute bottom-10 left-10 bg-white text-black px-4 py-2 font-semibold rounded-full hover:bg-gray-200">Shop </button>
+                </div>
+            
+                <!-- Fourth Image -->
+                <div class="relative">
+                    <p class="absolute bottom-32 left-10 text-white text-xl font-semibold">For Next-Level Game </p>
+                    <p class="absolute bottom-24 left-10 text-white text-2xl font-semibold">The Sabrina 2 & More </p>
+                    <button class="absolute bottom-10 left-10 bg-white text-black px-4 py-2 font-semibold rounded-full hover:bg-gray-200">Shop</button>
+                    <img src="img/nike-just-do-it (4).jpg" alt="">
+                </div>
+            </div>
+            
+        </section>
+        <!-- 3rd hero sention end -->
+        <!-- 4th hero sention -->
+
+        <section>
+            <div class="flex flex-col items-center justify-center text-center h-full">
+                <h1 class="text-5xl font-bold mt-10 ">NEW THIS WEEK</h1>
+                <p class="text-lg font-semibold mb-4">Featuring the Vaporfly 3, fall-running essential & more</p>
+                <button class="bg-black text-white mt-3 mb-12 px-6 py-2 font-semibold rounded-full hover:bg-gray-400">Shop New Arrivals</button>
+            </div>
+            
+        </section>
+        <!-- 4th hero sention end -->
+        <!-- 5th hero section  -->
+        <section>
+            <div>
+                <img src="img/nike-just-do-it (5).jpg" alt="">
+            </div>
+        </section>
+        <!-- 5th hero section end -->
+        <!-- 6th hero section  -->
+        <section>
+            <div>
+                <h1 class="ml-10 mt-14 mb-10 text-5xl font-bold">SHOP BY CLASSICS</h1>
+            </div>
+        </section>
+        <!-- slider section end -->
+        <section class="flex justify-center gap-6">
+            <div class="wrapper">
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img src="shoes img/nike-just-do-it (6).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (7).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (8).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (9).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (10).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (11).jpg" alt=""></div>
+                        <div class="img"><img src="shoes img/nike-just-do-it (12).jpg" alt=""></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Shoes img section end -->
+        <!-- brand identity  -->
+        <section>
+            <div class="logo-container">
+                <img src="logo/nike.logo.png" alt="Nike Logo">
+            </div>
+            <div>
+                <ul class=" flex items-center justify-center text-center h-full gap-6 font-semibold mb-20">
+                    <li>Find a Store</li>
+                    <li>Help</li>
+                    <li>Join Us</li>
+                    <li>Sign in</li>
+                </ul>
+        </section>
+        <section>
+            <div class="flex justify-center items-center mb-20 gap-28">
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Featured</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer ">Air Force 1</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Jordan 1</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Mecton</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Air Max 270</li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Shoes</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">All Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Jordan Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Runnning Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Basketball Shoes</li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4  cursor-pointer">Clothing</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">All clothing</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer ">Top & T-Shirts</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Shorts</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Hoodies & Pullovers</li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Kids</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Infant & Toddler Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Kids Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Kids Basketball Shoes</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Kids Running Shoes</li>
+                 </ul>
+             </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+         </section>
+         <!-- brand identity  end -->
+
+        <section>
+            <div class="flex ml-12 mt-16 gap-28">
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Resources</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer ">Gift Cards</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Find a Store</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Membership</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Nike x NBA</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Nike Journal</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Site Feedback</li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Help</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Get Help</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer"> Order Status</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Shiping and Delivery</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Returns</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Order Cancellation</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Payment Options</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Gift Card Balance</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Contact Us </li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4  cursor-pointer">Company</h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">About Nike </li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">News</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Careers</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Investors</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Purpose</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Sustainability</li>
+                 </ul>
+             </div>
+             <div>
+                 <h4 class="text-xl font-semibold mb-4 cursor-pointer">Promotions & Discounts </h4>
+                 <ul>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Student</li>
+                     <li class="font-semibold text-slate-500 mb-2  cursor-pointer">Military</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Teacher</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer w-52">First Responders & Medical Professtionals</li>
+                     <li class="font-semibold text-slate-500 mb-2 cursor-pointer">Birthdays </li>
+                 </ul>
+             </div>
+             <div>
+                 <button class="flex items-center font-semibold text-slate-500 cursor-pointer gap-1 ml-24"><span class="text-slate-500 "><img style="color: gray;" class="h-4  w-4  " src="logo/earth.png" alt=""></span> United States </button>
+             </div>
+            </div>
+
+         </section>
+         <section>
+            <div class="flex justify-center cursor-pointer  items-center mt-16 text-slate-500 mb-32 font-semibold ">
+                <p>
+                    <span>
+                        <i class='bx bx-copyright'></i>
+                    </span>
+                    2024 NIke ,Inc . All Rights Reserved 
+                </p>
+                <ul class="flex items-center ml-6 gap-8">
+                    <li class="cursor-pointer">Guides <span><i class='bx bx-chevron-down'></i></span></li>
+                    <li>Trems Of Sale </li>
+                    <li>Trems Of Use</li>
+                    <li> NIke Privacy Policy</li>
+                    <li class=" flex justify-center items-center"> <span ><i class='bx bxs-toggle-right ' undefined ></i></span>Yours Privacy Choices</li>
+                    <li> CA Supply Chains Act</li>
+                </ul>
+            </div>
+         </section>
+        
+          
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scirpt.js"></script>
+    
+</body>
+</html>

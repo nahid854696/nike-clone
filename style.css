@@ -1,0 +1,97 @@
+/* Container holding the slider /
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+/ The slider /
+.slider {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+/ Cards /
+.card {
+  flex: 0 0 20%; / Adjust to change how many cards are shown /
+  margin: 10px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/ Navigation buttons */
+/* .slider-container{
+    display: grid;
+    grid-auto-columns: calc(100%,1);
+}
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  } */
+
+  /* slider css */
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+  .wrapper .carousel{
+    display:grid;
+    grid-auto-rows: calc(100% / 3) -12px;
+    gap: 16px;
+    overflow: hidden;
+  }
+  .carousel .card{
+    height: 342px;
+    list-style: none;
+    background: white ;
+
+  }
+
+  .card .img img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+}
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+    
+}
+hr{
+  margin: 32px;
+  margin-top: 80px;
+  height: 1px;
+  color: rgba(90, 84, 84, 0.13);
+}
